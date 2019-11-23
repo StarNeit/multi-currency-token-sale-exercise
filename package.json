@@ -1,0 +1,32 @@
+{
+  "name": "multi-currency-token-sale-exercise",
+  "version": "1.0.0",
+  "description": "Cake JavaScript Exercise - Multi-currency Token Sale",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register src/**/*.spec.ts",
+    "proc": "ts-node src/main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjsanchezb/multi-currency-token-sale-exercise.git"
+  },
+  "author": "Jhon Jairo Sanchez Benavides",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjsanchezb/multi-currency-token-sale-exercise/issues"
+  },
+  "homepage": "https://github.com/jjsanchezb/multi-currency-token-sale-exercise#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.5",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "ts-node": "^8.5.2",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "@types/node": "^12.12.11",
+    "bignumber.js": "^9.0.0"
+  }
+}
